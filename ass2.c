@@ -27,7 +27,7 @@ typedef struct {
 	int y;
 } Point;
 
-// prototypes
+
 int   findHeuristic(int[][SIZE]);
 int   findManhattanDistance(Point, Point);
 int   findPossibleMoves(int[][SIZE], Direction[], Point);
